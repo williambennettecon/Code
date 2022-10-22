@@ -13,4 +13,4 @@ eis = 1.0;
 α = 0.36;
 δ = 0.08;
 
-r_equ(a_min, a_max, a_size, ρ, σ, y_size, β, eis, α, δ)
+r_star = r_equ(a_min, a_max, a_size, ρ, σ, y_size, β, eis, α, δ);

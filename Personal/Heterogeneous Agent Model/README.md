@@ -8,4 +8,4 @@ The code does three main things: first, for a given rate of return, it solves fo
 
 Using a quad-core Intel i5-3230M processor, the code takes approximately 38 seconds to run for income and asset grid sizes of 7 and 500, respectfully.
 
-This code works, but is still a work in progress. Future changes will include allowing more flexibility in how the asset grid and income process are constructed. Also, some robustness checks need to be done, such as insuring that there are no problems with the optimization algorithm for finding the equilibrium rate of return nor if the rate is near zero, becomes negative, or is near its theoretical bounds.
+This code works, but is still a work in progress. Future changes will include allowing more flexibility in how the asset grid and income process are constructed as well as an option for parallelization. Also, some robustness checks need to be done, such as insuring that there are no problems with the optimization algorithm for finding the equilibrium rate of return nor with the rate being near zero, negative, or near its theoretical bounds.
